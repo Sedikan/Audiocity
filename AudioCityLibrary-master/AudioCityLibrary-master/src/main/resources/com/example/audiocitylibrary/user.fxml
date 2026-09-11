@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+
+<VBox alignment="TOP_CENTER" spacing="20" styleClass="user-panel" stylesheets="/lightStyle.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.audiocitylibrary.Controllers" prefHeight="600" prefWidth="600">
+    <children>
+        <Label styleClass="user-title" text="$controller.UsersName" textFill="WHITE" style="-fx-font-size: 28;" />
+        <!-- StackPane to hold the ImageView and the Circle mask -->
+        <StackPane>
+            <Circle fx:id="userImageCircle" radius="50" fill="WHITE"/>
+            <ImageView fx:id="userImage" fitHeight="100" fitWidth="100">
+                <clip>
+                    <Circle centerX="50.0" centerY="50.0" radius="50"/>
+                </clip>
+                <image>
+                    <Image url="@/user.png"/> <!-- Replace with the path to your image -->
+                </image>
+            </ImageView>
+        </StackPane>
+        <VBox alignment="CENTER_LEFT" spacing="5" styleClass="user-info">
+            <HBox alignment="CENTER_LEFT" spacing="5">
+                <children>
+                    <Label styleClass="info-label" text="Username:" textFill="WHITE" style="-fx-font-size: 28;" />
+                    <Label fx:id="username_id" styleClass="userslowa" text="$controller.UsersName" textFill="WHITE" style="-fx-font-size: 28;" />
+
+                </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" spacing="5">
+                <Label styleClass="info-label" text="Balance:" textFill="WHITE" style="-fx-font-size: 28;" />
+                <Label fx:id="permissionsLabel" styleClass="userslowa" text="$controller.usersSaldo" textFill="WHITE" style="-fx-font-size: 28;" />
+            </HBox>
+            <HBox alignment="CENTER_LEFT" spacing="5">
+                <Label styleClass="info-label" text="Status:" textFill="WHITE" style="-fx-font-size: 28;" />
+                <Label fx:id="statusLabel" styleClass="userslowa" text="${controller.permissionsText}" textFill="WHITE" style="-fx-font-size: 28;" />
+            </HBox>
+        </VBox>
+    </children>
+</VBox>

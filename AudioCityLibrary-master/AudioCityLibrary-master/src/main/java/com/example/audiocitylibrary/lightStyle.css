@@ -1,0 +1,32 @@
+.root {
+    -fx-background-color: #1856b0;
+}
+
+.button {
+    -fx-background-color: #123877;
+    -fx-text-fill: #ffffff;
+}
+
+.button:hover {
+    -fx-background-color: #4671b0;
+}
+
+.home-button {
+    -fx-background-color: #1856b0;
+}
+
+.add-song-button {
+    -fx-background-color: #1856b0;
+}
+
+.shop-button {
+    -fx-background-color: #1856b0;
+}
+
+.user-button {
+    -fx-background-color: #1856b0;
+}
+
+.setting-button {
+    -fx-background-color: #1856b0;
+}
