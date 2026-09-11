@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.audiocitylibrary.LoginController">
+
+    <ScrollPane prefHeight="495.0" prefWidth="868.0" stylesheets="@lightStyle.css">
+        <VBox prefHeight="407.0" prefWidth="676.0" spacing="10.0">
+            <padding>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </padding>
+             <VBox fx:id="regulationVbox" prefHeight="677.0" prefWidth="642.0" spacing="5.0">
+                 <Label>No singing in all-caps during transactions. We have neighbors.</Label>
+                 <Label>All song titles must include at least one emoji for emotional expression. 🎵😄</Label>
+                 <Label>Buying Justin Bieber songs requires a signed declaration of guilt or innocence.</Label>
+                 <Label>Selling your soul for a song is strictly prohibited. We only accept cookies.</Label>
+                 <Label>Users caught air-guitaring to heavy metal must provide video evidence for validation.</Label>
+                 <Label>No refunds for songs that get stuck in your head. Consider it a free bonus track.</Label>
+                 <Label>Songs with a BPM over 200 may only be purchased by certified dance instructors.</Label>
+                 <Label>Do not attempt to auction off your shower singing sessions. It's not eBay.</Label>
+                 <Label>Any use of songs as a form of currency is discouraged, but we won't judge if you try.</Label>
+                 <Label>Songs must be purchased with real money, not Monopoly money or IOUs.</Label>
+                 <Label>Attempting to haggle for a discount using your amazing dance moves is allowed but not guaranteed to work.</Label>
+                 <Label>Users are required to take a break every hour to dance freely to their latest purchase.</Label>
+                 <Label>Buying sad songs during happy hour will result in a mandatory joke-telling session.</Label>
+                 <Label>No using song lyrics as a pickup line. It's 2024, get more creative.</Label>
+                 <Label>Selling songs for cryptocurrency is allowed, but good luck explaining it to your grandma.</Label>
+                 <Label>No creating playlists with titles longer than the song they contain. We have character limits.</Label>
+                 <Label>Users caught humming their purchased songs in public must donate $1 to a charity of their choice.</Label>
+                 <Label>Only licensed therapists are allowed to purchase breakup songs during office hours.</Label>
+                 <Label>No purchasing songs solely for the purpose of annoying your neighbors. Be a good neighbor.</Label>
+                 <Label>Songs with the word "banana" in the title are subject to a 10% surcharge for potassium content.</Label>
+                 <Label>Users caught using songs as ringtones must change it immediately if it's "Baby Shark."</Label>
+                 <Label>Any attempt to buy the same song multiple times will result in a virtual high-five and a warning.</Label>
+                 <Label>Users must agree to a mandatory dance-off before being allowed to purchase disco classics.</Label>
+                 <Label>No sneaky attempts to buy songs while in a silent library. Headphones don't make you invisible.</Label>
+                 <Label>Songs with a duration over 10 minutes require written permission from your boss if purchased during work hours.</Label>
+                 <Label>Selling your ex's favorite song requires a breakup justification essay of at least 500 words.</Label>
+                 <Label>Attempting to sell a custom song that you "composed" using a cat on a keyboard is grounds for account suspension.</Label>
+                 <Label>Songs purchased during a full moon must be accompanied by a werewolf-themed dance video. Extra points for creativity.</Label>
+                 <Label>Users caught attempting to buy "Never Gonna Give You Up" for Rickrolling purposes will be sent a complimentary disco ball.</Label>
+                 <Label>Remember, laughter is the best medicine. If your playlist doesn't include at least one comedic song, you're doing it wrong.</Label>
+                 <Label fx:id="regulationLabel" />
+             </VBox>
+        </VBox>
+    </ScrollPane>
+
+</AnchorPane>
